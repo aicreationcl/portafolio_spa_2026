@@ -35,11 +35,12 @@ export function Contact() {
               id="contacto-heading"
               className="text-foreground font-serif text-3xl font-semibold tracking-tight md:text-4xl"
             >
-              Hablemos de tu próximo desafío técnico.
+              Construyamos algo juntos.
             </h2>
             <p className="text-muted mt-6 max-w-md">
-              Disponible para roles de arquitectura de soluciones, liderazgo técnico o consultoría
-              en proyectos de banca, seguros, salud y logística.
+              Disponible para colaborar en gestión de proyectos ágiles, coaching y consultoría,
+              liderazgo técnico, integración de soluciones o desarrollo de software a medida, de
+              principio a fin.
             </p>
           </RevealOnScroll>
 

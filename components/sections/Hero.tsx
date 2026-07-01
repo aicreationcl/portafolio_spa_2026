@@ -8,7 +8,7 @@ export function Hero() {
     <section
       id="hero"
       aria-label="Presentación"
-      className="grid-dot-bg border-border relative flex min-h-[90vh] items-center border-b pt-16"
+      className="grid-dot-bg border-border relative flex min-h-[90svh] items-center border-b pt-16"
     >
       <Container className="grid grid-cols-1 items-center gap-12 py-20 md:grid-cols-12">
         <div className="md:col-span-9">
@@ -16,7 +16,8 @@ export function Hero() {
             {profile.role}
           </p>
           <h1 className="animate-fade-in-up text-foreground font-serif text-4xl leading-[1.1] font-semibold tracking-tight [animation-delay:120ms] sm:text-5xl md:text-6xl">
-            Arquitectura de software que sostiene productos reales.
+            Desarrollo de software integral, liderazgo técnico y coaching ágil en cada proyecto que
+            lidero.
           </h1>
           <p className="animate-fade-in-up text-muted mt-6 max-w-2xl text-lg [animation-delay:240ms]">
             {profile.summary}

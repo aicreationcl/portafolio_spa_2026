@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/Container";
+import { BrandMark } from "@/components/ui/BrandMark";
 import { profile } from "@/content/profile";
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
     <footer aria-label="Pie de página" className="border-border bg-surface border-t">
       <Container className="flex flex-col items-center gap-4 py-12 text-center md:flex-row md:justify-between md:text-left">
         <p className="label-mono text-foreground">
-          {profile.name} <span className="text-muted mx-2">/</span>
+          <BrandMark /> <span className="text-muted mx-2">/</span>
           <span className="text-muted font-normal tracking-normal normal-case">
             {" "}
             Solution Architect &amp; Tech Lead

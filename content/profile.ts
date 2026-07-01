@@ -1,8 +1,8 @@
 import type { Profile } from "@/types/content";
 
 export const profile: Profile = {
-  name: "Kris Sandoval",
-  handle: "kris.sandoval",
+  name: "Dvlpr_Chris",
+  handle: "dvlpr_chris",
   role: "Solution Architect & Tech Lead",
   location: "Chile",
   email: "kris.sandoval010@gmail.com",

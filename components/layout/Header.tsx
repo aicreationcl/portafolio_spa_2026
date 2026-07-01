@@ -2,6 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { Nav } from "@/components/layout/Nav";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
+import { BrandMark } from "@/components/ui/BrandMark";
 
 export function Header() {
   return (
@@ -9,7 +10,7 @@ export function Header() {
       <Container className="relative flex h-16 items-center justify-between">
         <a href="#hero" className="label-mono text-foreground flex items-center gap-2">
           <span className="bg-primary h-2 w-2" aria-hidden="true" />
-          Kris Sandoval
+          <BrandMark />
         </a>
 
         <Nav className="hidden md:block" />

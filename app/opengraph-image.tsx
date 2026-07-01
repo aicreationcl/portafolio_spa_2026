@@ -28,7 +28,8 @@ export default function OpengraphImage() {
         </span>
       </div>
       <div style={{ display: "flex", fontSize: 72, fontWeight: 700, lineHeight: 1.1 }}>
-        {profile.name}
+        <span>Dvlpr</span>
+        <span style={{ color: "#dd9a68" }}>_Chris</span>
       </div>
       <div style={{ display: "flex", fontSize: 32, color: "#9aa3a6", marginTop: 24 }}>
         {profile.role}

@@ -12,7 +12,7 @@ export function Footer() {
           <BrandMark /> <span className="text-muted mx-2">/</span>
           <span className="text-muted font-normal tracking-normal normal-case">
             {" "}
-            Solution Architect &amp; Tech Lead
+            {profile.role}
           </span>
         </p>
 

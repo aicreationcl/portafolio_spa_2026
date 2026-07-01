@@ -1,6 +1,7 @@
 import { profile } from "@/content/profile";
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kris-sandoval.dev";
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://portafoliospa2026-production.up.railway.app";
 
 export const siteTitle = `${profile.name} — ${profile.role}`;
 

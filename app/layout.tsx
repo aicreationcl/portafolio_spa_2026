@@ -36,8 +36,10 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   keywords: [
-    "Solution Architect",
     "Tech Lead",
+    "Agile Coach",
+    "Scrum Master",
+    "Project Management",
     "React",
     "Next.js",
     "MERN Stack",

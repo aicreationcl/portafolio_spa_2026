@@ -12,7 +12,7 @@ export const profile: Profile = {
     "Tech Lead FullStack con 6+ años construyendo productos digitales en banca, seguros, salud y logística — y liderando los equipos que los entregan. Experto en stacks MERN/MEAN y .NET, con despliegues en AWS y Azure, y certificado en Scrum, Agile Coach, OKR y DevOps.",
   yearsOfExperience: 6,
   coreSkills: [
-    "Arquitectura de soluciones y migración de plataformas",
+    "Arquitectura de soluciones y Desarrollo de Software end-to-end",
     "Liderazgo técnico de equipos multidisciplinarios",
     "Gestión de proyectos ágiles y Agile Coaching",
   ],

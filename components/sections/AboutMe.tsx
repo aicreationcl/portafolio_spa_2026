@@ -21,7 +21,9 @@ export function AboutMe() {
           <RevealOnScroll>
             <div className="border-border border p-10">
               <p className="label-mono text-primary">{profile.handle}</p>
-              <p className="text-foreground mt-4 font-serif text-6xl font-semibold">Kris Sandoval</p>
+              <p className="text-foreground mt-4 font-serif text-6xl font-semibold">
+                Kris Sandoval
+              </p>
               <div className="border-border mt-10 space-y-6 border-t pt-6">
                 {STATS.map((stat) => (
                   <div key={stat.label} className="flex items-baseline gap-4">
@@ -45,8 +47,8 @@ export function AboutMe() {
                 Elevando la ingeniería de software
               </h2>
               <p className="text-muted mt-6 leading-relaxed">
-                Mi enfoque técnico no se limita a escribir código, sino a diseñar estructuras que
-                perduren. Como Arquitecto de Soluciones, entiendo que la simplicidad es el nivel
+                Escribo código todos los días y diseño las estructuras que hacen que ese código
+                perdure. Como Arquitecto de Soluciones, entiendo que la simplicidad es el nivel
                 máximo de sofisticación: mi misión es transformar problemas de negocio complejos en
                 soluciones técnicas elegantes y mantenibles.
               </p>

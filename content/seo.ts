@@ -5,7 +5,7 @@ export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kris-sandova
 export const siteTitle = `${profile.name} — ${profile.role}`;
 
 export const siteDescription =
-  "Solution Architect & Tech Lead con 6+ años liderando arquitectura y equipos en banca, seguros, salud y logística. Especialista en MERN Stack, .NET y AWS.";
+  "Tech Lead y Agile Coach con 6+ años liderando equipos y proyectos ágiles en banca, seguros, salud y logística. Desarrollador full stack en MERN, .NET y AWS.";
 
 export const personJsonLd = {
   "@context": "https://schema.org",
@@ -28,7 +28,11 @@ export const personJsonLd = {
       "Azure",
       "Arquitectura de Software",
       "Scrum",
+      "Scrum Master",
       "DevOps",
+      "Agile Coaching",
+      "Project Management",
+      "Team Leadership",
     ],
   },
 };

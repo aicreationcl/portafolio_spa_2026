@@ -16,4 +16,7 @@ export {
   Network,
   GraduationCap,
   BadgeCheck,
+  Github,
+  ExternalLink,
+  Globe,
 } from "lucide-react";

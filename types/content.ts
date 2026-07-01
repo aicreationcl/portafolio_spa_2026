@@ -29,6 +29,16 @@ export interface ProjectCaseStudy {
   links?: { label: string; href: string }[];
 }
 
+export interface GithubProject {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  demoUrl?: string;
+  tech: string[];
+  language?: { name: string; colorClass: string };
+}
+
 export interface SkillGroup {
   id: string;
   label: string;

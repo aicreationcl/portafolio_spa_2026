@@ -21,7 +21,7 @@ export function AboutMe() {
           <RevealOnScroll>
             <div className="border-border border p-10">
               <p className="label-mono text-primary">{profile.handle}</p>
-              <p className="text-foreground mt-4 font-serif text-7xl font-semibold">Kris Sandoval</p>
+              <p className="text-foreground mt-4 font-serif text-6xl font-semibold">Kris Sandoval</p>
               <div className="border-border mt-10 space-y-6 border-t pt-6">
                 {STATS.map((stat) => (
                   <div key={stat.label} className="flex items-baseline gap-4">

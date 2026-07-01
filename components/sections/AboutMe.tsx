@@ -5,7 +5,7 @@ import { profile } from "@/content/profile";
 
 const STATS = [
   { value: "6+", label: "Años de experiencia" },
-  { value: "4", label: "Industrias: banca, seguros, salud, logística" },
+  { value: "4", label: "Industrias:  seguros, salud, logística" },
   { value: "9", label: "Certificaciones profesionales" },
 ];
 
@@ -47,7 +47,7 @@ export function AboutMe() {
                 Elevando la ingeniería de software
               </h2>
               <p className="text-muted mt-6 leading-relaxed">
-                Escribo código todos los días y diseño las estructuras que hacen que ese código
+                Escribo código y diseño las estructuras que hacen que ese código
                 perdure. Como Arquitecto de Soluciones, entiendo que la simplicidad es el nivel
                 máximo de sofisticación: mi misión es transformar problemas de negocio complejos en
                 soluciones técnicas elegantes y mantenibles.

@@ -18,7 +18,7 @@ export function Projects() {
           id="proyectos-heading"
           eyebrow="Proyectos destacados"
           title="Casos de estudio de ingeniería aplicada"
-          description="Migraciones, arquitecturas y automatizaciones reales en banca, salud y logística — con problema, decisiones técnicas y resultado."
+          description="Migraciones, arquitecturas y desarrollos reales en seguros, salud y logística — con problemas, decisiones técnicas y resultados."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">

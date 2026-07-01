@@ -18,7 +18,7 @@ export function Experience() {
           id="experiencia-heading"
           eyebrow="Experiencia"
           title="Seis años construyendo y liderando"
-          description="De desarrollador IRIS y .NET a Arquitecto de Soluciones, en banca, seguros, salud y logística."
+          description="De desarrollador IRIS y .NET a Líder de Proyectos y Arquitecto de Soluciones, seguros, salud, y logística."
         />
 
         <div className="mt-12 space-y-12 md:pl-4">

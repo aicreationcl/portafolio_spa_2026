@@ -72,22 +72,31 @@ export const projects: ProjectCaseStudy[] = [
     tech: ["Angular 13+", "Node.js", "NestJS", "MongoDB", "AWS", "CI/CD"],
   },
   {
-    id: "ots-logistica",
-    title: "Plataforma de logística de última milla — OTS Chile",
-    category: "Logística / Frontend",
+    id: "beartrack-ots",
+    title: "Beartrack — Logística de última milla (OTS Chile)",
+    category: "Logística / E-commerce",
     problem:
-      "OTS Chile requería una plataforma web moderna para la operación de logística de última milla, con foco en rendimiento y una experiencia fluida para los equipos de operación.",
+      "OTS Chile necesitaba una plataforma propia para operar su logística de última milla y dar seguimiento a envíos de e-commerce en días de alto volumen, en lugar de depender de herramientas genéricas.",
     solution:
-      "Colaboración en el desarrollo frontend de la plataforma con React y Next.js, integrando la lógica de negocio de seguimiento y asignación de envíos con los servicios backend existentes.",
+      'Construcción de la plataforma "Beartrack" con React y Next.js, incluyendo un sistema de tracking interno de envíos y la integración de pagos con MercadoPago para los flujos de e-commerce del cliente.',
     decisions: [
-      "Next.js como base del frontend para aprovechar renderizado eficiente y una arquitectura de componentes mantenible a medida que crecía la plataforma.",
+      "Next.js y NestJS como base full-stack para iterar rápido en un producto propio, en vez de un módulo dentro de un sistema de terceros.",
+      "Integración directa con MercadoPago como pasarela de pago para soportar los flujos de e-commerce sin depender de un proveedor externo de checkout.",
     ],
     challenges: [
-      "Integrar flujos operativos de logística en tiempo real dentro de una interfaz clara para usuarios no técnicos.",
+      "Sostener el tracking en tiempo real durante picos de operación en días de alto volumen (e-commerce).",
+      "Construir la mayor parte de la plataforma desde cero, con un alcance de producto amplio para un equipo reducido.",
     ],
-    impact: ["Contribución directa a una plataforma de logística de última milla en producción."],
+    impact: [
+      "Beartrack fue adoptado como herramienta central de la operación diaria de OTS Chile.",
+      "Optimización de las operaciones de entrega en días de alto volumen de e-commerce.",
+    ],
     results:
-      "Participación activa en la evolución de una plataforma crítica para la operación logística diaria de OTS Chile.",
-    tech: ["React", "Next.js"],
+      "Plataforma en producción, usada como sistema central de tracking y operación logística de OTS Chile.",
+    tech: ["React", "Next.js", "NestJS", "Tailwind CSS", "MercadoPago"],
+    links: [
+      { label: "Beartrack", href: "https://www.beartrackapp.com/" },
+      { label: "OTS Chile", href: "https://www.otschile.cl/" },
+    ],
   },
 ];

@@ -8,6 +8,7 @@ import { Nav } from "@/components/layout/Nav";
 
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const shouldReduceMotion = useReducedMotion();
@@ -15,10 +16,29 @@ export function MobileMenu() {
   useEffect(() => {
     if (!isOpen) return;
 
+    function getFocusable() {
+      return Array.from(wrapperRef.current?.querySelectorAll<HTMLElement>("a, button") ?? []);
+    }
+
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
         setIsOpen(false);
         triggerRef.current?.focus();
+        return;
+      }
+
+      if (event.key !== "Tab") return;
+
+      const focusable = getFocusable();
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first?.focus();
       }
     }
 
@@ -29,7 +49,7 @@ export function MobileMenu() {
   }, [isOpen]);
 
   return (
-    <div className="md:hidden">
+    <div ref={wrapperRef} className="md:hidden">
       <button
         ref={triggerRef}
         type="button"

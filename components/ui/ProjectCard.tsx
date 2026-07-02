@@ -2,6 +2,7 @@ import { ChevronDown } from "lucide-react";
 import type { ProjectCaseStudy } from "@/types/content";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
+import { ButtonLink } from "@/components/ui/Button";
 
 interface ProjectCardProps {
   project: ProjectCaseStudy;
@@ -85,17 +86,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       {project.links?.length ? (
-        <div className="border-border flex flex-wrap gap-4 border-t pt-4">
+        <div className="border-border flex flex-wrap gap-2 border-t pt-4">
           {project.links.map((link) => (
-            <a
+            <ButtonLink
               key={link.href}
               href={link.href}
-              className="label-mono text-primary focus-visible:outline-primary underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              variant="accent"
+              className="px-4 py-2 text-[11px]"
               target="_blank"
               rel="noreferrer"
             >
               {link.label}
-            </a>
+            </ButtonLink>
           ))}
         </div>
       ) : null}

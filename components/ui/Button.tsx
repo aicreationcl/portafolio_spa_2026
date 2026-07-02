@@ -7,6 +7,7 @@ const baseClasses =
 const variants = {
   primary: "bg-primary text-primary-foreground hover:brightness-110",
   ghost: "border border-border text-foreground hover:bg-surface-high",
+  accent: "bg-accent text-accent-foreground hover:brightness-110",
 } as const;
 
 type Variant = keyof typeof variants;

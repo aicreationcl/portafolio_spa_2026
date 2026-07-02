@@ -1,5 +1,6 @@
 import { Github, ExternalLink, Globe } from "@/components/icons";
 import { Badge } from "@/components/ui/Badge";
+import { ButtonLink } from "@/components/ui/Button";
 import type { GithubProject } from "@/types/content";
 
 interface GithubProjectCardProps {
@@ -47,15 +48,16 @@ export function GithubProjectCard({ project }: GithubProjectCardProps) {
       </div>
 
       {project.demoUrl ? (
-        <a
+        <ButtonLink
           href={project.demoUrl}
+          variant="accent"
+          className="w-full justify-center"
           target="_blank"
           rel="noreferrer"
-          className="group border-border hover:border-primary/40 focus-visible:outline-primary label-mono text-muted hover:text-primary flex items-center justify-center gap-2 rounded-sm border py-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
         >
           <Globe className="h-3.5 w-3.5" aria-hidden="true" />
           Ver demo
-        </a>
+        </ButtonLink>
       ) : null}
     </div>
   );

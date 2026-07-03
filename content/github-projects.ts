@@ -31,4 +31,14 @@ export const githubProjects: GithubProject[] = [
     tech: ["Next", "Shadcn", "Tailwind CSS","MongoDB", "MercadoPago","WebSocket"],
     language: { name: "TypeScript", colorClass: "bg-primary" },
   },
+   {
+    id: "ruta-car",
+    name: "ruta_car",
+    description:
+      "Landing Page - Fabricación de carrocerías especializadas · Chile",
+    url: "https://github.com/aicreationcl/rutacar_landing_new",
+    demoUrl: "https://rutacarlandingnew-production.up.railway.app/",
+    tech: ["Next", "App Router", "Tailwind CSS", "SEO" ],
+    language: { name: "TypeScript", colorClass: "bg-primary" },
+  },
 ];

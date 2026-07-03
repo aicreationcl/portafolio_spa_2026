@@ -10,6 +10,8 @@ export const githubProjects: GithubProject[] = [
     demoUrl: "https://linearclonefront-production.up.railway.app/",
     tech: ["React","TanStack Query", "Zustand", "Tailwind CSS", "MongoDB"],
     language: { name: "TypeScript", colorClass: "bg-primary" },
+    imageUrl: "/projects/linear-clone-front.png",
+    imageAlt: "Vista previa de linear_clone_front",
   },
   {
     id: "americo-market",
@@ -20,6 +22,8 @@ export const githubProjects: GithubProject[] = [
     demoUrl: "https://americomarketfront-production.up.railway.app/",
     tech: ["React", "React Hook Form", "Zod", "Tailwind CSS", "MongoDB", "WebPay", "MercadoPago"],
     language: { name: "TypeScript", colorClass: "bg-primary" },
+    imageUrl: "/projects/americo-market.png",
+    imageAlt: "Vista previa de americo_market",
   },
   {
     id: "club-master",
@@ -30,6 +34,8 @@ export const githubProjects: GithubProject[] = [
     demoUrl: "https://clubmaster-production.up.railway.app/",
     tech: ["Next", "Shadcn", "Tailwind CSS","MongoDB", "MercadoPago","WebSocket"],
     language: { name: "TypeScript", colorClass: "bg-primary" },
+    imageUrl: "/projects/club-master.png",
+    imageAlt: "Vista previa de club_master",
   },
    {
     id: "ruta-car",
@@ -40,5 +46,7 @@ export const githubProjects: GithubProject[] = [
     demoUrl: "https://rutacarlandingnew-production.up.railway.app/",
     tech: ["Next", "App Router", "Tailwind CSS", "SEO" ],
     language: { name: "TypeScript", colorClass: "bg-primary" },
+    imageUrl: "/projects/landing.png",
+    imageAlt: "Vista previa de ruta_car",
   },
 ];

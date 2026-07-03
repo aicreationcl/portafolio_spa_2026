@@ -37,6 +37,8 @@ export interface GithubProject {
   demoUrl?: string;
   tech: string[];
   language?: { name: string; colorClass: string };
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface SkillGroup {

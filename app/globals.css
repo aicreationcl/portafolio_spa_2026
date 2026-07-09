@@ -126,3 +126,12 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* El toggle de tema anima manualmente el clip-path circular sobre estos
+   pseudo-elementos (ver ThemeToggle.tsx); se desactiva el cross-fade por
+   defecto del navegador para que solo se vea el círculo expandiéndose. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

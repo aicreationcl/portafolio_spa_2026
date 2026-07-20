@@ -54,8 +54,8 @@ export const githubProjects: GithubProject[] = [
     name: "apolo_cafe",
     description:
       "Landing Page - Cafeteria Apolo, café de especialidad",
-    url: "https://apolocoffeelanding-production.up.railway.app/",
-    demoUrl: "https://rutacarlandingnew-production.up.railway.app/",
+    url: "https://github.com/aicreationcl/apolo_coffee_landing",
+    demoUrl: "https://apolocoffeelanding-production.up.railway.app/",
     tech: ["Next", "SPA", "Framer Motion", "Tailwind CSS", "SEO"],
     language: { name: "TypeScript", colorClass: "bg-primary" },
     imageUrl: "/projects/landing.png",

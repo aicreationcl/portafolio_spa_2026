@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Github, ExternalLink, Globe } from "@/components/icons";
 import { Badge } from "@/components/ui/Badge";
 import { ButtonLink } from "@/components/ui/Button";

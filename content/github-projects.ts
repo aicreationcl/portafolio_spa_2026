@@ -40,8 +40,7 @@ export const githubProjects: GithubProject[] = [
   {
     id: "ruta-car",
     name: "ruta_car",
-    description:
-      "Landing Page - Fabricación de carrocerías especializadas · Chile",
+   "description": "Landing page de alto rendimiento para servicios de gestión vehicular y arriendo de autos, enfocada en la experiencia de usuario y captura de leads.",
     url: "https://github.com/aicreationcl/rutacar_landing_new",
     demoUrl: "https://rutacarlandingnew-production.up.railway.app/",
     tech: ["Next", "App Router", "Tailwind CSS", "SEO"],
@@ -52,8 +51,7 @@ export const githubProjects: GithubProject[] = [
   {
     id: "apolo-cafe",
     name: "apolo_cafe",
-    description:
-      "Landing Page - Cafeteria Apolo, café de especialidad",
+  "description": "Landing page interactiva para una cafetería de especialidad y tostaduría, diseñada con animaciones fluidas y optimización SEO orientada a la conversión.",
     url: "https://github.com/aicreationcl/apolo_coffee_landing",
     demoUrl: "https://apolocoffeelanding-production.up.railway.app/",
     tech: ["Next", "SPA", "Framer Motion", "Tailwind CSS", "SEO"],
